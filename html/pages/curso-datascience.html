@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Data Science & Machine Learnig - EduTech</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">EduTech Academy</a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="./cursos.html" class="active">Cursos</a></li>
+                </ul>
+                <button id="theme-toggle">🌙 Modo Escuro</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container course-layout">
+        <div class="course-content">
+            <h1>Data Science & Machine Learnig</h1>
+            <img src="/images/data-science.jpg" alt="Web Dev" style="width:100%; border-radius:12px; margin-bottom:30px;">
+
+            <div class="course-description">
+                <h3>Sobre o Curso</h3>
+                <p>Domine técnicas avançadas de análise de dados e aprenda a construir modelos de machine learning. O curso aborda Python, pandas, scikit-learn, TensorFlow e técnicas estatísticas essenciais para carreiras em dados.</p>
+            </div>
+
+            <h3>O que você vai aprender:</h3>
+            <ul class="topicos-lista">
+                <li>Fundamentos teóricos e práticos essenciais</li>
+                <li>Tecnologias e ferramentas atuais do mercado</li>
+                <li>Desenvolvimento de projetos reais</li>
+                <li>Metodologias ágeis e colaborativas</li>
+                <li>Preparação para o mercado de trabalho</li>
+            </ul>
+
+            <div class="form-box">
+                <h3>Faça sua Matrícula</h3>
+                <form id="form-matricula">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome">
+                        <small class="error-msg">Mensagem de erro aqui</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seu@email.com">
+                        <small class="error-msg">Mensagem de erro aqui</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" placeholder="00000-000" maxlength="9">
+                        <small class="error-msg">Mensagem de erro aqui</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" disabled>
+                    </div>
+
+                    <div class="address-grid">
+                        <div class="form-group">
+                            <input type="text" id="bairro" placeholder="Bairro" disabled>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="cidade" placeholder="Cidade" disabled>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="estado" placeholder="UF" disabled>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary" style="width: 100%; border:none; cursor:pointer; margin-top:10px;">Confirmar Matrícula</button>
+                </form>
+            </div>
+        </div>
+
+        <aside class="course-sidebar">
+            <div class="info-item">
+                <strong>Carga Horária</strong>
+                <span>100 horas</span>
+            </div>
+
+            <div class="info-item">
+                <strong>Modalidade</strong>
+                <span>Presencial</span>
+            </div>
+
+            <div class="info-item">
+                <strong>Alunos Matriculados</strong>
+                <span>320</span>
+            </div>
+
+            <div class="info-item">
+                <strong>Módulos</strong>
+                <span>7</span>
+            </div>
+
+            <div class="info-item" style="border:none;">
+                <strong>Próxima Turma</strong>
+                <span style="color: var(--primary-color); font-weight:bold;">10 de Maio, 2025</span>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 EduTech Academy.</p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
